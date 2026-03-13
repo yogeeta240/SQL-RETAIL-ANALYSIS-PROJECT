@@ -1,4 +1,4 @@
-Transaction_ID	Date	Customer_ID	Gender	Age	Product_Category	Quantity	Price_per_Unit	Total_Amount
+Transaction_ID,	Date,	Customer_ID,	Gender,	Age,	Product_Category,	Quantity,	Price_per_Unit,	Total_Amount
 1	25-02-2023	CUST091	Male	58	Beauty	5	300	1500
 2	09-08-2023	CUST123	Female	18	Clothing	1	500	500
 3	17-09-2023	CUST139	Male	37	Beauty	5	1500	7500
