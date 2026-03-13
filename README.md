@@ -1,75 +1,108 @@
-# SQL-RETAIL-ANALYSIS-PROJECT
-Retail Sales Data Analysis project using Microsoft SQL Server to explore transaction data and generate business insights. SQL queries were used to analyze customer behavior, sales by product category, gender-wise purchases, and identify top customers using aggregation, grouping, and filtering techniques.
-The main objective of this project is to practice and demonstrate SQL data analysis skills by exploring customer behavior, product performance, and sales trends.
+#  Retail Sales Data Analysis (SQL Project)
 
-Project Objectives
+##  Project Overview
 
-Analyze retail transaction data to identify sales patterns.
+This project analyzes a retail sales dataset using SQL to uncover insights about customer purchasing behavior, product performance, and overall sales trends. The analysis was performed using Microsoft SQL Server and focuses on practicing real-world data analysis queries used by data analysts.
 
-Determine the performance of different product categories.
+---
 
-Identify high-value customers based on total purchases.
+##  Project Objectives
 
-Evaluate customer distribution across product categories.
+* Explore and clean retail transaction data
+* Analyze customer purchasing behavior
+* Identify top customers based on total sales
+* Examine product category performance
+* Generate business insights using SQL queries
 
-Key SQL Concepts Used
+---
 
-Data exploration using SELECT, TOP, and filtering
+## Dataset Columns
 
-Aggregation functions such as COUNT(), SUM(), and AVG()
+The dataset includes the following fields:
 
-Data grouping using GROUP BY
+* Transaction_ID
+* Customer_ID
+* Gender
+* Age
+* Product_Category
+* Quantity
+* Price_per_Unit
+* Total_Amount
+* Transaction_Date
 
-Conditional aggregation with CASE WHEN
+---
 
-Identifying unique customers using COUNT(DISTINCT)
+##  SQL Concepts Used
 
-Sorting and ranking results using ORDER BY
+This project demonstrates the use of several important SQL techniques:
 
-Example Business Questions Solved
+* SELECT statements
+* Data filtering (WHERE)
+* Aggregation functions (COUNT, SUM, AVG)
+* GROUP BY for category analysis
+* ORDER BY for sorting results
+* COUNT(DISTINCT) for unique customers
+* Conditional aggregation using CASE WHEN
 
-Total number of transactions in the dataset
+---
 
-Sales distribution by product category
+##  Business Questions Answered
 
-Gender-wise purchase analysis
+Some of the analysis performed in this project includes:
 
-Top 5 customers with the highest total sales
+* Total number of transactions
+* Sales distribution by product category
+* Gender-wise purchase behavior
+* Top 5 customers by total sales
+* Number of unique customers per product category
+* Category-wise transaction counts
 
-Number of unique customers purchasing from each category
+---
 
-Dataset Features
+##  Tools Used
 
-The dataset includes the following key attributes:
+* SQL
+* Microsoft SQL Server
+* SQL Server Management Studio (SSMS)
 
-Transaction ID
+---
 
-Customer ID
+##  Key Learning Outcomes
 
-Gender
+* Writing analytical SQL queries
+* Performing data exploration using SQL
+* Using aggregation for business insights
+* Structuring queries for real-world datasets
 
-Age
+---
 
-Product Category
+##  Project Structure
 
-Quantity Purchased
+```
+Retail-Sales-SQL-Analysis/
+│
+├── dataset/
+│   └── retail_sales.csv
+│
+├── queries/
+│   └── analysis_queries.sql
+│
+└── README.md
+```
 
-Price per Unit
+---
 
-Total Amount
+##  Future Improvements
 
-Transaction Date
+* Create SQL views for reusable analysis
+* Build a dashboard using Power BI or Tableau
+* Add advanced SQL queries (window functions)
 
-Tools and Technologies
+---
 
-SQL for data querying and analysis
+##  Author
 
-Microsoft SQL Server Management Studio for writing and executing SQL queries
-
-Outcome
-
-Through this project, SQL was used to transform raw retail transaction data into meaningful insights that could help businesses understand customer purchasing behavior and improve sales strategies.
-
+**Yogeeta**
+SQL & Data Analysis Practice Project
 
 
-Retail Sales Data Analysis project using Microsoft SQL Server to explore transaction data and generate business insights. SQL queries were used to analyze customer behavior, sales by product category, gender-wise purchases, and identify top customers using aggregation, grouping, and filtering techniques.
