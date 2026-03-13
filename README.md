@@ -103,6 +103,7 @@ Retail-Sales-SQL-Analysis/
 ##  Author
 
 **Yogeeta**
-SQL & Data Analysis Practice Project
+
+--SQL & Data Analysis Practice Project
 
 
